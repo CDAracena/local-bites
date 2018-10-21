@@ -1,5 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './App.css'
 import axios from 'axios';
 import Nav from './components/Nav/Nav';
 import RestaurantList from './components/restaurant-list/RestaurantList'
