@@ -1,0 +1,9 @@
+.restaurant-card-container {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 2px 2px 2px 2px grey;
+}
+
+.restaurant-name {
+  padding: 25px;
+}
