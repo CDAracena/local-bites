@@ -1,7 +1,44 @@
 .nav-main-container {
   font-family: 'Pathway Gothic One', sans-serif;
+  padding-top: 50px;
 }
 
 .nav-search-btn {
   cursor: pointer;
+  width: 110px;
+  border: 2px solid #A53B4F;
+  border-radius: 4px;
+  padding: 10px;
+  background-color: #F0E6EF;
+  color: #A53B4F;
+  font-size: 1.2rem;
+  transition: all 0.6s ease-in-out;
+}
+
+.nav-search-btn:hover {
+  background-color: #A53B4F;
+  color: #F0E6EF;
+  border-color: #F0E6EF;
+}
+
+.bottom-nav-section {
+  padding-bottom: 25px;
+}
+
+.nav-input-bar {
+  margin-right: 1px;
+}
+
+.nav-intro-sentence {
+  font-size: 1.7rem;
+  color: #A53B4F;
+}
+
+.app-title {
+  font-size: 3.5rem;
+  color: #A53B4F;
+}
+
+.app-title span {
+  margin: 2px;
 }

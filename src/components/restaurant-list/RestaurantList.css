@@ -4,6 +4,7 @@
   flex-wrap: wrap;
   list-style-type: none;
   justify-content: space-evenly;
+  padding: 0px;
 }
 
 .restaurants-container {
@@ -12,4 +13,6 @@
 
 .city-name {
   font-family: 'Molengo', sans-serif;
+  color: #A53B4F;
+  font-size: 2.9rem;
 }
