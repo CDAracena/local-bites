@@ -2,7 +2,7 @@ import React from 'react';
 import './RestaurantList.css';
 import Restaurant from '../restaurant/Restaurant'
 
-const RestaurantList = ({restaurants, cityName}) => (<div className="restaurants-container container">
+const RestaurantList = ({restaurants, cityName}) => (<div className="restaurants-container container-fluid text-center">
   <h1 className="city-name">
     {cityName}
   </h1>

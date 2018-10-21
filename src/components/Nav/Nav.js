@@ -1,5 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './Nav.css'
 
 const Nav = ({searchTerm, searchFunction}) => (<div className="nav-main-container container text-center">
   <div className="top-nav-section">
