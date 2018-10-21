@@ -1,9 +1,60 @@
 .restaurant-card-container {
   display: flex;
   flex-direction: column;
-  box-shadow: 2px 2px 2px 2px grey;
+  overflow: hidden;
+  border-radius: 4px;
+  transition: transform 0.8s ease-in-out;
+  transition: box-shadow 0.7s ease-in-out;
+  width: 250px;
+  background-color: whitesmoke;
+  max-height: 300px;
+  height: 300px;
+  margin: 5px;
+  margin-bottom: 10px;
+}
+
+.restaurant-card-container:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 0px 1px 3px #414960
 }
 
 .restaurant-name {
-  padding: 25px;
+  padding: 35px;
+  font-weight: bold;
+  background-color: #A53B4F;
+  color: #f5f5f5de;
+  font-size: 2.5rem;
+  overflow: scroll;
+}
+
+.price-div {
+  color: #0C8346;
+}
+
+.rating-div {
+  color: #424651;
+}
+
+.price-rating-row {
+  padding: 10px;
+  font-size: 1.5rem;
+}
+
+.link-row {
+  padding-bottom: 10px;
+  font-size: 1.5rem;
+}
+
+.link-row a {
+  text-decoration: none;
+  color: #424651;
+  transition: color 0.5s ease-in-out;
+}
+
+.link-row a:hover {
+  color: #A53B4F;
+}
+
+.status-phone-row {
+  padding: 10px;
 }

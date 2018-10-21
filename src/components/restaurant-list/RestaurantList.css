@@ -3,4 +3,13 @@
   flex-direction: row;
   flex-wrap: wrap;
   list-style-type: none;
+  justify-content: space-evenly;
+}
+
+.restaurants-container {
+  font-family: 'Pathway Gothic One', sans-serif;
+}
+
+.city-name {
+  font-family: 'Molengo', sans-serif;
 }
