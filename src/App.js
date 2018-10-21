@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import axios from 'axios';
 import './index.css';
 import Nav from './components/Nav/Nav';
+import RestaurantList from './components/restaurant-list/RestaurantList'
 
 class App extends React.Component {
   constructor(props) {
@@ -42,6 +43,7 @@ class App extends React.Component {
   render() {
     return (<div className="app-container container-fluid">
       <Nav searchTerm={this.userInput} searchFunction={this.userCitySearch}/>
+      <RestaurantList cityName={this.state.currentCity} restaurants={this.state.cityRestaurants}/>
     </div>)
   }
 }
