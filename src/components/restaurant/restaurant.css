@@ -79,3 +79,45 @@
 .restaurant-card-bottom-section {
   height: 50%;
 }
+
+.restaurant-card-container:hover .store-open-status {
+  color: #487d51;
+  animation: open-status-flash 0.6s ease-in-out infinite alternate;
+}
+
+@keyframes open-status-flash {
+  0% {
+    opacity: 0.3;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .price-rating-row {
+    width: 80%;
+    margin: auto;
+  }
+
+  .price-div {
+    width: 20%;
+  }
+
+  .rating-div {
+    width: 80%;
+  }
+
+  .status-phone-row {
+    margin: auto;
+  }
+
+  .store-tel {
+    width: 70%;
+  }
+
+  .store-open-status {
+    width: 30%;
+  }
+}
