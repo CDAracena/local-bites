@@ -9,7 +9,7 @@ class App extends React.Component {
   constructor(props) {
     super(props)
 
-    this.userInput = this.userInput.bind(this);
+    this.userInput = washington heightsthis.userInput.bind(this);
     this.userCitySearch = this.userCitySearch.bind(this);
     this.setOrder = this.setOrder.bind(this)
   }
