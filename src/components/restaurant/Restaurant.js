@@ -18,10 +18,10 @@ const Restaurant = ({
 </div>
   <div className="restaurant-card-bottom-section">
   <div className="row price-rating-row">
-    <div className="col-lg-6 price-div col-sm-6 col-xs-6">
+    <div className="col-lg-6 price-div">
       {price}
     </div>
-    <div className="col-lg-6 col-sm-6 col-xs-6 rating-div">
+    <div className="col-lg-6 rating-div">
       Rating: {rating}
     </div>
   </div>
@@ -33,11 +33,11 @@ const Restaurant = ({
     </div>
   </div>
   <div className="row status-phone-row">
-    <div className="col-lg-6">
+    <div className="col-lg-6 store-open-status">
       {open ? 'Closed' : 'Open!'}
     </div>
-    <div className="col-lg-6">
-      Tel: {phone}
+    <div className="col-lg-6 store-tel">
+      <i className="fa fa-phone-square"></i> {phone}
     </div>
   </div>
 </div>
