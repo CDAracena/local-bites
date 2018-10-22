@@ -25,7 +25,7 @@ const Restaurant = ({
   <div className="row">
     <div className="col-lg-12 link-row">
       <a href={yelpLink}>
-      {name}<img src="https://s3-media2.fl.yelpcdn.com/assets/srv0/styleguide/96b838280c20/assets/img/brand_guidelines/dont_rearrange.png" width="25%" alt="yelp logo"/>
+        {name}<img src="https://s3-media2.fl.yelpcdn.com/assets/srv0/styleguide/96b838280c20/assets/img/brand_guidelines/dont_rearrange.png" width="25%" alt="yelp logo"/>
       </a>
     </div>
   </div>
