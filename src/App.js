@@ -45,7 +45,6 @@ class App extends React.Component {
       optionValue = '&sort_by=rating'
     }
     this.setState({currentOrder: optionValue})
-
     if (this.state.currentCity) {
       this.userCitySearch();
     }

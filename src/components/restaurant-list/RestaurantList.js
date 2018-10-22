@@ -3,31 +3,31 @@ import './RestaurantList.css';
 import Restaurant from '../restaurant/Restaurant'
 
 const RestaurantList = ({restaurants, cityName, sortBy}) => (<div className="restaurants-container container-fluid text-center">
-<div className="row city-option-row">
-  <div className="col-lg-6">
-  <h1 className="city-name">
-    {cityName}
-  </h1>
-</div>
-<div className="col-lg-6">
-  <span>
-    <span className="p-1 h5 sort-text">
-    Sort:
-  </span>
-  <select className="select-tag" onChange={sortBy}>
-    <option>
-      Select
-    </option>
-    <option>
-      Rating
-    </option>
-    <option>
-      Price
-    </option>
-  </select>
-</span>
-</div>
-</div>
+  <div className="row city-option-row">
+    <div className="col-lg-6">
+      <h1 className="city-name">
+        {cityName}
+      </h1>
+    </div>
+    <div className="col-lg-6">
+      <span>
+        <span className="p-1 h5 sort-text">
+          Sort:
+        </span>
+        <select className="select-tag" onChange={sortBy}>
+          <option>
+            Select
+          </option>
+          <option>
+            Rating
+          </option>
+          <option>
+            Price
+          </option>
+        </select>
+      </span>
+    </div>
+  </div>
   <ul className="restaurant-list">
     {
       restaurants.map(restaurant => <li key={restaurant.id}>
