@@ -31,9 +31,7 @@ const RestaurantList = ({restaurants, cityName, sortBy}) => (<div className="res
   <ul className="restaurant-list">
     {
       restaurants.map(restaurant => <li key={restaurant.id}>
-        <Restaurant name={restaurant.name} price={restaurant.price} rating={restaurant.rating} yelpLink={restaurant.url} open={restaurant.is_closed
-            ? 'Open!'
-            : 'Closed'} phone={restaurant.phone}/>
+        <Restaurant name={restaurant.name} price={restaurant.price} rating={restaurant.rating} yelpLink={restaurant.url} open={restaurant.is_closed} phone={restaurant.phone}/>
       </li>)
     }
   </ul>

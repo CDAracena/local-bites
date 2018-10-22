@@ -9,11 +9,14 @@ const Restaurant = ({
   open,
   phone
 }) => (<div className="restaurant-card-container">
+  <div className="restaurant-card-top-section">
   <div className="row">
     <div className="restaurant-name col-lg-12">
       {name}
     </div>
   </div>
+</div>
+  <div className="restaurant-card-bottom-section">
   <div className="row price-rating-row">
     <div className="col-lg-6 price-div col-sm-6 col-xs-6">
       {price}
@@ -31,12 +34,13 @@ const Restaurant = ({
   </div>
   <div className="row status-phone-row">
     <div className="col-lg-6">
-      {open}
+      {open ? 'Closed' : 'Open!'}
     </div>
     <div className="col-lg-6">
       Tel: {phone}
     </div>
   </div>
+</div>
 </div>)
 
 export default Restaurant;
