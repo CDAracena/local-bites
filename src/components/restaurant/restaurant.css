@@ -21,14 +21,13 @@
 }
 
 .restaurant-name {
-  padding: 35px;
   font-weight: bold;
   color: #A53B4F;
-  text-shadow: 2px 2px 2px black;
-  font-size: 2.3rem;
-  line-height: 0.9;
-  overflow: hidden;
+  text-shadow: 1px 1px 1px black;
+  font-size: 2.0rem;
   text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 .price-div {
@@ -40,12 +39,6 @@
 }
 
 .price-rating-row {
-  padding: 10px;
-  font-size: 1.5rem;
-}
-
-.link-row {
-  padding-bottom: 10px;
   font-size: 1.5rem;
 }
 
@@ -57,10 +50,6 @@
 
 .link-row a:hover {
   color: #A53B4F;
-}
-
-.status-phone-row {
-  padding: 10px;
 }
 
 .restaurant-card-top-section {
@@ -108,10 +97,7 @@
 
   .rating-div {
     width: 80%;
-  }
-
-  .status-phone-row {
-    margin: auto;
+    text-align: right;
   }
 
   .store-tel {
@@ -120,5 +106,21 @@
 
   .store-open-status {
     width: 30%;
+  }
+
+  .link-row {
+    width: 50%;
+  }
+
+  .link-row img {
+    width: 50%
+  }
+
+  .store-tel {
+    width: 50%;
+  }
+
+  .store-open-status {
+    width: 50%;
   }
 }

@@ -14,13 +14,12 @@ const Restaurant = ({
       background: `url(${img})`,
       backgroundSize: 'cover'
     }}>
-    <div className="row">
-      <div className="restaurant-name col-lg-12">
-        {name}
-      </div>
-    </div>
+
   </div>
   <div className="restaurant-card-bottom-section">
+    <div className="restaurant-name col-lg-12">
+        {name}
+    </div>
     <div className="row price-rating-row">
       <div className="col-lg-6 price-div">
         {price}
@@ -30,9 +29,9 @@ const Restaurant = ({
       </div>
     </div>
     <div className="row">
-      <div className="col-lg-12 link-row">
+      <div className="col-lg-6 link-row">
         <a href={yelpLink}>
-          {name}<img src="https://s3-media2.fl.yelpcdn.com/assets/srv0/styleguide/96b838280c20/assets/img/brand_guidelines/dont_rearrange.png" width="25%" alt="yelp logo"/>
+          <img src="https://s3-media2.fl.yelpcdn.com/assets/srv0/styleguide/96b838280c20/assets/img/brand_guidelines/dont_rearrange.png" width="50%" alt="yelp logo"/>
         </a>
       </div>
     </div>
