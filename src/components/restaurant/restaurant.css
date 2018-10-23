@@ -123,4 +123,8 @@
   .store-open-status {
     width: 50%;
   }
+
+  .restaurant-card-container {
+    width: 270px;
+  }
 }
